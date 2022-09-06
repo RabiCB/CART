@@ -1,0 +1,51 @@
+.logo{
+    height:2rem;
+    width:100%;
+    background-color: aqua;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    position:sticky;
+    top:0;
+    cursor: pointer;
+    z-index:99;
+ 
+    
+}
+.logo>h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.logo>img:hover{
+    background-color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    
+
+
+}
+.lg{
+    display: flex;
+    align-items: center;
+}
+.items{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  padding-top:1rem;
+  border-radius: 6px;
+
+}
+
+@media screen and (max-width:800px){
+        .items
+        {display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center ;
+    }
+
+}
